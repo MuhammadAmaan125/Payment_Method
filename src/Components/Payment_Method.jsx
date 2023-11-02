@@ -9,6 +9,7 @@ import Konnect from "../assests/Payment_Method/Konnect.png"
 import JazzCash from "../assests/Payment_Method/JazzCash.png"
 import EasyPaisa from "../assests/Payment_Method/EasyPaisa.png"
 import Phone from "../assests/Payment_Method/Phone.png"
+import PaymentMethod1 from './PaymentMethd1'
 
 function Payment_Method() {
   return (
@@ -158,7 +159,7 @@ function Payment_Method() {
                               src={Secure}
                               className="aspect-square object-contain object-center w-[23px] overflow-hidden self-center max-w-full my-auto"
                             />
-                            <div className="text-neutral-700 text-opacity-60 text-base leading-5 self-stretch  md:max-w-[326px] max-w-[250px] grow shrink-0 basis-auto">
+                            <div className="text-neutral-700 text-opacity-60 text-base leading-5 self-stretch  md:max-w-[326px] max-w-[230px] grow shrink-0 basis-auto">
                               All informa is encrypted and we do not store your
                               card details.
                             </div>
@@ -181,7 +182,7 @@ function Payment_Method() {
                         <input type="number" placeholder='1234 5675 1235 2345'  className="aspect-[5.72] object-contain object-center rounded-br-xl rounded-tl-xl  justify-end items-center overflow-hidden md:mt-3.5 mt-0 self-start border-gray-300 border-2 outline-none p-5" />
                        
                       </div>
-                          <div className="flex w-[346px] max-w-full items-start md:justify-between justify-normal gap-5 mt-11 self-start max-md:mt-10">
+                          <div className="flex w-[346px] max-w-full items-start md:justify-between justify-normal gap-5 mt-11 self-start max-md:mt-10 md:flex-row flex-col">
                             <div className="self-stretch flex flex-col">
                               <div className="text-neutral-700 text-opacity-80 text-sm leading-5 whitespace-nowrap self-start">
                                 Expiry
@@ -202,6 +203,8 @@ function Payment_Method() {
                       </div>
                             </div>
                           </div>
+
+                          {/* <PaymentMethod1/> */}
                           <div className="items-start flex w-[330px] max-w-full flex-col mt-10 self-start max-md:mt-10">
                             <div className="text-slate-400 text-xs font-medium leading-5 whitespace-nowrap self-start">
                               <span className="text-black">Please </span>
@@ -211,7 +214,7 @@ function Payment_Method() {
                                 to avail discounts on voucher codes.
                               </span>
                             </div>
-                            <div className="justify-center text-slate-400 md:w-[100%] w-[90%] text-xs leading-5 md:mt-2 mt-0 self-start">
+                            <div className="justify-center text-slate-400 md:w-[100%] w-[80%] flex md:flex-row flex-col  text-xs leading-5 md:mt-2 mt-0 self-start">
                               <span className="text-black">
                                 <br />
                               </span>
@@ -228,7 +231,7 @@ function Payment_Method() {
                               </span>
                             </div>
                           </div>
-                          <div className="justify-center items-center border flex w-[304px] max-w-full grow flex-col mt-16 px-5 py-3.5 rounded-xl border-solid border-zinc-300 border-opacity-80 self-start max-md:mt-10">
+                          <div className="justify-center items-center border flex md:w-[304px] w-[250px] max-w-full grow flex-col mt-16 md:px-5 px-2 py-3.5 rounded-xl border-solid border-zinc-300 border-opacity-80 self-start max-md:mt-10">
                             <div className="text-slate-400 text-sm font-medium leading-5 self-center whitespace-nowrap">
                               Pay Now
                             </div>
@@ -242,7 +245,7 @@ function Payment_Method() {
             </div>
             <div className="flex flex-col items-stretch w-[26%] ml-5 max-md:w-full max-md:ml-0">
               <div className="flex flex-col max-md:mt-7">
-                <div className="text-slate-400 text-center text-lg font-medium lowercase whitespace-nowrap items-center border w-[321px] max-w-full pl-4 pr-5 py-5 rounded-xl border-solid border-zinc-300 self-start">
+                <div className="text-slate-400 text-center text-lg font-medium lowercase whitespace-nowrap items-center border md:w-[321px] w-[250px] max-w-full pl-4 pr-5 py-5 rounded-xl border-solid border-zinc-300 self-start md:ml-0 ml-5">
                   Price Summary
                 </div>
                 <div className="justify-between items-start bg-white flex w-[321px] max-w-full gap-5 mt-3 pl-3 pr-3.5 py-5 rounded-xl border-b-zinc-300 border-b border-solid self-start">
@@ -271,7 +274,7 @@ function Payment_Method() {
                     <img
                       loading="lazy"
                       src={Phone}
-                      className="aspect-square object-contain object-center w-[34px] overflow-hidden self-center max-w-full my-auto"
+                      className="aspect-square object-contain object-center md:block hidden overflow-hidden self-center max-w-full my-auto"
                     />
                     <div className="text-stone-900 text-base font-medium lowercase self-stretch max-w-[240px] grow shrink-0 basis-auto">
                       <span className="text-neutral-400">
