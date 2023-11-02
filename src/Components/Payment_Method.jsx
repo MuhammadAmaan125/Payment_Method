@@ -153,7 +153,7 @@ function Payment_Method() {
                           className="aspect-[0.01] object-contain object-center w-[7px] items-center overflow-hidden self-stretch max-w-full"
                         />
                         <div className="self-center flex flex-col grow shrink-0 basis-auto md:my-auto my-10">
-                          <div className="items-start flex w-[361px] max-w-full gap-3 self-start">
+                          <div className="items-start flex w-[361px] max-w-full gap-3 self-start mt-5">
                             <img
                               loading="lazy"
                               src={Secure}
