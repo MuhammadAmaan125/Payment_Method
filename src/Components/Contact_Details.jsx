@@ -3,7 +3,7 @@ import { Stepper, Step, StepLabel} from "@mui/material";
 import plus from "../assests/pluss.png"
 import round from "../assests/round.png"
 import travel from "../assests/image 76.png"
-
+import Payment_Method from "./Payment_Method";
 
 
 
@@ -43,7 +43,7 @@ function Contact_Details () {
                 
               
         </div>
-        <div className="justify-center text-slate-400 text-center text-2xl font-medium ml-5 mt-24 self-start whitespace-nowrap max-md:ml-2.5 max-md:mt-10">
+        {/* <div className="justify-center text-slate-400 text-center text-2xl font-medium ml-5 mt-24 self-start whitespace-nowrap max-md:ml-2.5 max-md:mt-10">
           Contact Details
         </div>
         <div className="self-stretch mt-6 max-md:max-w-full">
@@ -366,7 +366,8 @@ return(
             Continue
             </button>
           </div>
-        </div>
+        </div> */}
+        <Payment_Method/>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ import Payment_Method from './Components/Payment_Method'
 function App() {
   return (
     <>
-<Payment_Method/>
+<Contact_Details/>
 </>
   )
 }
