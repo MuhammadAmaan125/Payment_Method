@@ -9,7 +9,7 @@ import Konnect from "../assests/Payment_Method/Konnect.png"
 import JazzCash from "../assests/Payment_Method/JazzCash.png"
 import EasyPaisa from "../assests/Payment_Method/EasyPaisa.png"
 import Phone from "../assests/Payment_Method/Phone.png"
-import PaymentMethod1 from './PaymentMethd1'
+import PaymentMethod from './PaymentMethd'
 
 function Payment_Method() {
   return (
@@ -189,8 +189,8 @@ function Payment_Method() {
                               </div>
                               <div class="relative max-w-sm mt-5  ">
   
-  <input datepicker datepicker-format="mm/dd/yyyy" type="text" class=" w-32 border border-gray-300 text-gray-900 text-sm rounded-lg   block pl-5 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:text-white h-[50px] outline-none rounded-br-xl rounded-tl-xl" placeholder="MM/YY"/>
-</div>
+                             <input datepicker datepicker-format="mm/dd/yyyy" type="text" class=" w-32 border border-gray-300 text-gray-900 text-sm rounded-lg   block pl-5 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:text-white h-[50px] outline-none rounded-br-xl rounded-tl-xl" placeholder="MM/YY"/>
+                   </div> 
                             </div>
                             <div className="self-stretch flex flex-col">
                               <div className="text-neutral-700 text-opacity-80 text-sm leading-5 whitespace-nowrap self-start">
@@ -204,7 +204,7 @@ function Payment_Method() {
                             </div>
                           </div>
 
-                          {/* <PaymentMethod1/> */}
+                          {/* <PaymentMethod/> */}
                           <div className="items-start flex w-[330px] max-w-full flex-col mt-10 self-start max-md:mt-10">
                             <div className="text-slate-400 text-xs font-medium leading-5 whitespace-nowrap self-start">
                               <span className="text-black">Please </span>
@@ -214,7 +214,7 @@ function Payment_Method() {
                                 to avail discounts on voucher codes.
                               </span>
                             </div>
-                            <div className="justify-center text-slate-400 md:w-[100%] w-[80%] flex md:flex-row flex-col  text-xs leading-5 md:mt-2 mt-0 self-start">
+                            <div className="justify-center text-slate-400 md:w-[100%] w-[80%] flex md:flex-col flex-col  text-xs leading-5 md:mt-2 mt-0 self-start">
                               <span className="text-black">
                                 <br />
                               </span>

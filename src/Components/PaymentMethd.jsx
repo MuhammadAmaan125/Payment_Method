@@ -10,12 +10,12 @@ import JazzCash from "../assests/Payment_Method/JazzCash.png"
 import EasyPaisa from "../assests/Payment_Method/EasyPaisa.png"
 import Phone from "../assests/Payment_Method/Phone.png"
 
-function PaymentMethod1() {
+function PaymentMethod() {
   return (
     <>
-         <div className="justify-end items-start rounded border bg-white flex  max-w-full flex-col pb-12 border-solid border-zinc-300 border-opacity-80 self-start">
+         <div className="md:justify-end justify-center  md:items-start items-center rounded border bg-white flex md:w-[350px] max-w-full w-[255px] flex-col pb-12 border-solid border-zinc-300 border-opacity-80 self-start">
                             <div className="items-center rounded bg-sky-100 bg-opacity-70 self-stretch flex w-full flex-col md:px-5 px-0 py-4 border-r-4 border-r-slate-400 border-solid">
-                              <div className="items-start flex md:w-[281px]  max-w-full justify-between gap-5 self-start max-md:ml-px">
+                              <div className="items-start flex md:w-[281px]  max-w-full justify-between gap-2 self-start max-md:ml-px">
                                 <div className="justify-center items-center self-center flex w-4 max-w-full flex-col my-auto p-1 rounded-sm">
                                   <input type="checkbox" />
                                   
@@ -61,4 +61,4 @@ function PaymentMethod1() {
   )
 }
 
-export default PaymentMethod1
+export default PaymentMethod
